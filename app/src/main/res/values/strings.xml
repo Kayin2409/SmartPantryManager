@@ -5,4 +5,11 @@
     <string name="nav_settings">Settings</string>
     <string name="add_pantry_item">Add pantry item</string>
     <string name="empty_pantry_message">Your pantry is empty. Tap + to add an ingredient.</string>
+    <string name="title_add_ingredient">Add Ingredient</string>
+    <string name="hint_ingredient_name">Ingredient name (e.g. Tomatoes)</string>
+    <string name="hint_quantity">Quantity (e.g. 4)</string>
+    <string name="hint_unit">Unit</string>
+    <string name="hint_expiry">Expiry date (YYYY-MM-DD, optional)</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
 </resources>

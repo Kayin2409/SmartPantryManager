@@ -256,6 +256,26 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     // ================= PANTRY CRUD =================
 
+    public PantryItem getPantryItemById(int id) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.query(TABLE_PANTRY, null,
+                COL_PANTRY_ID + " = ?", new String[]{id + ""},
+                null, null, null);
+
+        if (cursor.moveToFirst()) {
+            PantryItem item = new PantryItem();
+            item.setId(cursor.getInt(cursor.getColumnIndexOrThrow(COL_PANTRY_ID)));
+            item.setName(cursor.getString(cursor.getColumnIndexOrThrow(COL_PANTRY_NAME)));
+            item.setQuantity(cursor.getDouble(cursor.getColumnIndexOrThrow(COL_PANTRY_QUANTITY)));
+            item.setUnit(cursor.getString(cursor.getColumnIndexOrThrow(COL_PANTRY_UNIT)));
+            item.setExpiryDate(cursor.getString(cursor.getColumnIndexOrThrow(COL_PANTRY_EXPIRY)));
+            cursor.close();
+            return item;
+        }
+        cursor.close();
+        return null;
+    }
+
     public long addPantryItem(PantryItem item) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
