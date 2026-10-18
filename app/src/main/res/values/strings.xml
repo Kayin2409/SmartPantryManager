@@ -12,4 +12,10 @@
     <string name="hint_expiry">Expiry date (YYYY-MM-DD, optional)</string>
     <string name="btn_save">Save</string>
     <string name="btn_cancel">Cancel</string>
+    <string name="subtitle_tap_to_view">Tap to view ingredients and steps</string>
+    <string name="empty_suggested_recipes_msg">No recipes match your pantry yet - add more ingredients</string>
+    <string name="label_strict_matches">You can make these right now:</string>
+    <string name="label_almost_there">Almost There (Missing 1 ingredient):</string>
+    <string name="label_ingredients_required">Ingredients required:</string>
+    <string name="label_preparation_steps">Preparation Steps:</string>
 </resources>
