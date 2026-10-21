@@ -18,4 +18,9 @@
     <string name="label_almost_there">Almost There (Missing 1 ingredient):</string>
     <string name="label_ingredients_required">Ingredients required:</string>
     <string name="label_preparation_steps">Preparation Steps:</string>
+    <string name="title_app_settings">App Settings</string>
+    <string name="label_expiring_alerts">Enable Expiring Soon Alerts</string>
+    <string name="desc_expiring_alerts">Get notified when items in your pantry are nearing their expiry date.</string>
+    <string name="title_about">About</string>
+    <string name="desc_about_app">Smart Pantry Manager v1.0\nReduce food waste by cooking with what you already have.</string>
 </resources>
