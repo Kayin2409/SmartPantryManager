@@ -2,4 +2,24 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Apple-style Monochrome Palette (Light) -->
+    <color name="mono_black">#000000</color>
+    <color name="mono_white">#FFFFFF</color>
+    <color name="mono_bg_light">#F2F2F7</color>
+    <color name="mono_surface_light">#FFFFFF</color>
+    <color name="mono_card_border">#E5E5EA</color>
+    <color name="mono_text_primary">#000000</color>
+    <color name="mono_text_secondary">#8E8E93</color>
+    <color name="mono_divider">#E5E5EA</color>
+    <color name="mono_nav_indicator_light">#E5E5EA</color>
+
+    <!-- Apple-style Monochrome Palette (Dark) -->
+    <color name="mono_bg_dark">#000000</color>
+    <color name="mono_surface_dark">#1C1C1E</color>
+    <color name="mono_card_border_dark">#2C2C2E</color>
+    <color name="mono_text_primary_dark">#FFFFFF</color>
+    <color name="mono_text_secondary_dark">#8E8E93</color>
+    <color name="mono_divider_dark">#2C2C2E</color>
+    <color name="mono_nav_indicator_dark">#2C2C2E</color>
 </resources>

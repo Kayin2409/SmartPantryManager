@@ -1,7 +1,41 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.SmartPantryManager" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Monochrome Palette Dark -->
+        <item name="colorPrimary">@color/mono_white</item>
+        <item name="colorOnPrimary">@color/mono_black</item>
+        <item name="colorPrimaryContainer">@color/mono_nav_indicator_dark</item>
+        <item name="colorOnPrimaryContainer">@color/mono_white</item>
+
+        <item name="colorSecondary">#8E8E93</item>
+        <item name="colorOnSecondary">@color/mono_black</item>
+
+        <item name="android:colorBackground">@color/mono_bg_dark</item>
+        <item name="colorSurface">@color/mono_surface_dark</item>
+        <item name="colorOnSurface">@color/mono_text_primary_dark</item>
+        <item name="colorOnSurfaceVariant">@color/mono_text_secondary_dark</item>
+        <item name="colorOutline">@color/mono_card_border_dark</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/mono_bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Default Card & Button Style -->
+        <item name="materialCardViewStyle">@style/Widget.SleekCardView</item>
+        <item name="materialButtonStyle">@style/Widget.SleekButton</item>
+    </style>
+
+    <style name="Widget.SleekCardView" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/mono_card_border_dark</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardBackgroundColor">@color/mono_surface_dark</item>
+    </style>
+
+    <style name="Widget.SleekButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="backgroundTint">@color/mono_white</item>
+        <item name="android:textColor">@color/mono_black</item>
     </style>
 </resources>
